@@ -5,7 +5,6 @@
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
 </p>
-
 <img src="images/logo.png" alt="FanPlace Logo" />
 
 > **배우의 팬들을 위한 최고의 덕질 공간, FanPlace**🎬
@@ -41,7 +40,7 @@ https://youtu.be/v7X_h15Ix1c
 
 
 ## Tech Stack
-![tech stack](images\tech stack.png)
+<img src="images/tech_stack.png" alt="tech stack" />
 
 
 
@@ -89,6 +88,7 @@ https://youtu.be/v7X_h15Ix1c
         │  └─reviews
         └─searchbars
 </pre>
+</details>
 
 <details>
 <summary>BACKEND</summary>    
@@ -152,6 +152,8 @@ https://youtu.be/v7X_h15Ix1c
      │  wsgi.py
      └  __init__.py
 </pre>
+</details>
+
 
 
 
@@ -175,17 +177,17 @@ https://youtu.be/v7X_h15Ix1c
 
 ## DB ERD
 
-![FanPlaceERD](images\FanPlaceERD.JPG)
+<img src="images/FanPlaceERD.jpg" alt="FanPlaceERD" />
 
 
 
 ## Features
 
-![화면1](images\화면1.png)
+<img src="images/화면1.png" alt="화면1" />
 
-![화면2](images\화면2.png)
+<img src="images/화면2.png" alt="화면2" />
 
-![화면3](images\화면3.png)
+<img src="images/화면3.png" alt="화면3" />
 
 
 
