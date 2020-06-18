@@ -173,7 +173,7 @@
 
 ## DB ERD
 
-<img src="images/fanplaceerd.jpg" alt="FanPlaceERD" />
+<img src="images/fanplaceerd.png" alt="FanPlaceERD" />
 
 <br>
 
