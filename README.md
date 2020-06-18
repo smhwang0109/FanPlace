@@ -1,10 +1,11 @@
 <h1 align="center">Welcome to FanPlace 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="www.gsda.wcd" target="_blank">
+  <a href="https://github.com/smhwang0109/FanPlace/blob/master/README.md" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
 </p>
+
 <img src="images/logo.png" alt="FanPlace Logo" />
 
 > **배우의 팬들을 위한 최고의 덕질 공간, FanPlace**🎬
@@ -27,19 +28,19 @@
 >
 > FanPlace를 탐험하다가 새롭게 매력적인 배우에 빠지게 될지도 몰라요😍
 
-
+<br>
 
 ## Introduce Video
 
 [**소개 영상**](https://youtu.be/v7X_h15Ix1c)
 
-
+<br>
 
 
 ## Tech Stack
 <img src="images/tech_stack.png" alt="tech stack" />
 
-
+<br>
 
 ## Environment
 
@@ -47,8 +48,6 @@
 
 - Vue (4.3.1)
 - bootstrap (4.5.0)
-
-
 
 ### BACKEND
 
@@ -58,7 +57,7 @@
 
 
 
-
+<br>
 
 ## Directory
 
@@ -152,7 +151,7 @@
 </details>
 
 
-
+<br>
 
 ## Author
 
@@ -170,13 +169,13 @@
 - 프론트엔드 (Vue Js)
   - Movie, User 파트 기능 구현
 
-
+<br>
 
 ## DB ERD
 
 <img src="images/FanPlaceERD.jpg" alt="FanPlaceERD" />
 
-
+<br>
 
 ## Features
 
@@ -188,7 +187,7 @@
 
 
 
-
+<br>
 
 
 ## 📝 License
