@@ -31,11 +31,8 @@
 
 ## Introduce Video
 
-https://youtu.be/v7X_h15Ix1c
+[**소개 영상**](https://youtu.be/v7X_h15Ix1c)
 
-<div class="embed-responsive embed-responsive-1by1">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v7X_h15Ix1c?rel=0" allowfullscreen style="height:30vw;"></iframe>
-</div>
 
 
 
