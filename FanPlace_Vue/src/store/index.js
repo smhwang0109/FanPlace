@@ -138,7 +138,6 @@ export default new Vuex.Store({
 
     // search
     SET_KEYWORD(state, keyword) {
-      console.log(keyword)
       state.keyword = keyword
     },
     SET_SEARCHED_ARTICLES(state, articles) {
@@ -219,7 +218,6 @@ export default new Vuex.Store({
         .catch(err => console.log(err.response.data))
     },
     fetchUserArticles({ commit }, user_id) {
-      console.log(user_id)
       axios.get(SERVER.URL + SERVER.ROUTES.userArticle + user_id + '/')
         .then(res => {
           commit('SET_USER_ARTICLES', res.data)
@@ -246,7 +244,6 @@ export default new Vuex.Store({
       axios.get(SERVER.URL + SERVER.ROUTES.actorList + actor_id + '/', getters.config)
         .then(res => {
           commit('SET_SELECTED_ACTOR', res.data)
-          console.log(res)
         })
         .catch(err => console.log(err.response.data))
     },
@@ -274,7 +271,7 @@ export default new Vuex.Store({
       axios.get(TMDB.URL + TMDB.ROUTES.actorSearch, {
         params: {
           query: keyword,
-          api_key: process.env.VUE_APP_YOUTUBE_API_KEY_SOOM,
+          api_key: process.env.VUE_APP_THEMOVIEDB_API_KEY_SOOM,
           language: 'ko-KR'
         }
       })
@@ -321,6 +318,8 @@ export default new Vuex.Store({
             dispatch('fetchArticles', data.selectFeed)
           } else if (data.where == 'ActorProfile') {
             dispatch('fetchActorArticles', data.actor_id)
+          } else if (data.where == 'SearchResult') {
+            dispatch('searchArticles', data.keyword)
           } else {
             dispatch('fetchUserArticles', data.user_id)
           }
@@ -344,7 +343,7 @@ export default new Vuex.Store({
     selectMovie({ commit }, movie_id) {
       axios.get(TMDB.URL + TMDB.ROUTES.movieDetail + `/${movie_id}`, {
         params: {
-          api_key: process.env.VUE_APP_YOUTUBE_API_KEY_SOOM,
+          api_key: process.env.VUE_APP_THEMOVIEDB_API_KEY_SOOM,
           language: 'ko-KR'
         }
       })
@@ -403,8 +402,8 @@ export default new Vuex.Store({
 
 
     // search
-    searchArticles({ commit }, keyword) {
-      axios.get(SERVER.URL + SERVER.ROUTES.articleSearch + keyword + '/')
+    searchArticles({ getters, commit }, keyword) {
+      axios.get(SERVER.URL + SERVER.ROUTES.articleSearch + keyword + '/', getters.config)
       .then(res => {
           commit('SET_SEARCHED_ARTICLES', res.data)
         })
@@ -414,7 +413,7 @@ export default new Vuex.Store({
     searchMovies({ commit }, keyword) {
       axios.get(TMDB.URL + TMDB.ROUTES.movieSearch, {
         params: {
-          api_key: process.env.VUE_APP_YOUTUBE_API_KEY_SOOM,
+          api_key: process.env.VUE_APP_THEMOVIEDB_API_KEY_SOOM,
           language: 'ko-KR',
           query: keyword
         }

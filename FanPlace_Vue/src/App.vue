@@ -25,7 +25,8 @@
             <router-link :to="{ name: 'MovieList' }" class="nav-font"><i class="fas fa-film"></i></router-link>
           </li>
           <li v-if="isLoggedIn">
-            <router-link v-if="myAccount" :to="`/accounts/${myAccount.id}/`" class="nav-font"><i class="fas fa-user"></i></router-link>
+            <a v-if="myAccount" :href="`/accounts/${myAccount.id}/`" class="nav-font"><i class="fas fa-user"></i></a>
+            <!-- <router-link v-if="myAccount" :to="`/accounts/${myAccount.id}/`" class="nav-font"><i class="fas fa-user"></i></router-link> -->
           </li>
         </ul>
       </div>
@@ -60,8 +61,8 @@ export default {
       this.SET_KEYWORD(this.keyword)
       this.searchActors(this.keyword)
       this.searchArticles(this.keyword)
-      this.keyword = null
       this.$router.push({ name: 'SearchResult', params: { keyword: this.keyword}})
+      this.keyword = null
     },
   },
   created() {

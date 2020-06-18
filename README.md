@@ -28,6 +28,12 @@
 >
 > FanPlace를 탐험하다가 새롭게 매력적인 배우에 빠지게 될지도 몰라요😍
 
+
+
+<br>
+
+## 🏠 [FanPlace 즐기기](https://fanplace.netlify.app/)
+
 <br>
 
 ## Introduce Video
