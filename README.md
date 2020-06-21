@@ -198,6 +198,6 @@
 
 ## 📝 License
 
-Copyright © 2020 [smhwang0109](https://github.com/smhwang0109).<br/>
+Copyright © 2020 [Soomin-Hwang](https://github.com/smhwang0109), [Sunhwan-Park](https://github.com/SunHwan-Park) <br/>
 
 ***
