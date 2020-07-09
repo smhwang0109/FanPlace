@@ -32,13 +32,15 @@
 
 <br>
 
-## 🏠 [FanPlace 즐기기](https://fanplace.netlify.app/)
+## 🏠 [FanPlace 즐기기(Click🤘)](http://fanplace.s3-website.ap-northeast-2.amazonaws.com)
 
 <br>
 
 ## Introduce Video
 
 [**소개 영상**](https://youtu.be/v7X_h15Ix1c)
+
+<a href="https://youtu.be/v7X_h15Ix1c"><img src="images\fanplace_video_image.png" alt="fanplace_video_image"></a>
 
 <br>
 
