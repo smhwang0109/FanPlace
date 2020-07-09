@@ -40,7 +40,7 @@
 
 [**소개 영상**](https://youtu.be/v7X_h15Ix1c)
 
-<a href="https://youtu.be/v7X_h15Ix1c"><img src="images\fanplace_video_image.png" alt="fanplace_video_image"></a>
+<a href="https://youtu.be/v7X_h15Ix1c"><img src="images\fanplace_video_image.PNG" alt="fanplace_video_image"></a>
 
 <br>
 
